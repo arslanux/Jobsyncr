@@ -1,0 +1,140 @@
+.jobanner_img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.jobanner_heading {
+    color: #101828;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+.jobanner_text {
+    color: #667085;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.summary_heading {
+    color: #101828;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.summary_text {
+    color: #667085;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.keyListCard {
+    border-radius: 8px;
+    border: 1px solid #EAECF0;
+    background: #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(198, 198, 198, 0.25);
+    display: flex;
+    padding: 24px 32px;
+    align-items: flex-start;
+    gap: 18px;
+    align-self: stretch;
+}
+
+.summary_heading2 {
+    color: #344054;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.right_card {
+    border-radius: 8px;
+    border: 1px solid #EAECF0;
+    background: #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(198, 198, 198, 0.25);
+    display: flex;
+    padding: 32px 24px;
+    flex-direction: column;
+    align-self: stretch;
+}
+
+.range_number {
+    color: #101828;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.salary_text {
+    color: #667085;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.textt_1 {
+    color: #344054;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.textt_2 {
+    color: #667085;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.apply_btn {
+    border-radius: 8px;
+    border: 1px solid var(--Blue, #4c1b88);
+    background: var(--Blue, #4c1b88);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    color: var(--White, #FFF);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    padding: 10px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+}
+
+.apply_btn:hover {
+    border-radius: 8px;
+    border: 1px solid var(--Blue, rgb(245, 130, 33));
+    background: var(--Blue, rgb(245, 130, 33));
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    color: var(--White, white);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    padding: 10px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+}

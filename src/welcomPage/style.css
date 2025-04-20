@@ -1,0 +1,347 @@
+.welcome_button {
+  border-radius: 0.5rem;
+  border: 1px solid #4c1b88 !important;
+  background: #4c1b88;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  padding: 0.625rem 1rem;
+}
+
+.sign_button {
+  border-radius: 0.5rem;
+  border: 1px solid #4c1b88 !important;
+  background: #4c1b88 !important;
+  padding: 2rem 1rem;
+}
+
+.welcome_bg {
+  background-image: url(../assets/Banner.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+  /* border: 1px solid green; */
+  /* padding: 20px 20px; */
+}
+
+@media only screen and (max-width: 600px) {
+  .welcome_img {
+    width: 100%;
+  }
+
+  .welcome_button {
+    width: auto;
+  }
+}
+
+.banner_bg {
+  background-image: url(../assets/Banners.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px 0px;
+}
+
+.second_bg {
+  background-image: url(../assets/Content.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 70px 0px;
+}
+
+.third_bg {
+  background-image: url(../assets/third_bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 70px 0px;
+}
+
+.four_bg {
+  background-image: url(../assets/fourBg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 70px 0px;
+}
+
+.last_bg {
+  /* background-image: url(../assets/getintouch.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 70px 0px;
+  margin-top: 40px;
+  margin-bottom: 40px; */
+  border-radius: 24px;
+  background: linear-gradient(270deg, #ffca05 11.92%, #f48120 69.41%);
+  margin: 1rem 5rem;
+}
+
+.card_bg {
+  /* background: linear-gradient(90deg, #0093d8 0.01%, #0062af 99.99%); */
+  padding: 60px 0px;
+  background-image: url(../assets/fourBg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.static_bg {
+  /* background-image: url(../assets/cardBg.png); */
+    background: linear-gradient(102deg, #4C1A88 43.92%, #C31F5D 132.03%);
+    margin-bottom: 100px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 60px 0px;
+}
+
+.email_button {
+  padding: 14px 28px;
+  border-radius: 8px;
+  background: #fff;
+  width: auto;
+  color: #cd6712;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.email_button:hover {
+  background: #cd6712;
+  color: #fff;
+
+}
+
+@media (min-width: 900px) {
+  .css-12xralf {
+    padding-left: 200px;
+    padding-right: 64px;
+  }
+}
+
+.card1 {
+  border-radius: 16px;
+  border: 1px solid #e4e7ec;
+  padding: 20px 24px;
+  margin-bottom: 30px;
+}
+
+.section {
+  margin: 0px 50px;
+}
+
+.section_card {
+  margin: 6px 12px;
+}
+
+.logo_section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo_section_card {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.logo_section2 {
+  display: flex;
+  justify-content: flex-start;
+  width: fit-content;
+  padding: 2px 10px 2px 8px;
+}
+
+.logo_section3 {
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 16px;
+  background: #f2f4f7;
+  width: fit-content;
+  padding: 4px 10px 2px 8px;
+}
+
+.time {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.success {
+  padding: 60px 112px 0px 112px;
+  background: #fff;
+}
+
+.success_sub {
+  padding: 0px 60px 0px 60px;
+  background: #fff;
+  background-position: center;
+  background-size: auto;
+}
+
+.slick-dots {
+  margin-bottom: 30px !important;
+  /* Ensures the margin is applied to all slides */
+}
+
+.get_grid {
+  background: #fff;
+}
+
+.success2 {
+  padding: 20px 0px;
+  /* background-image: url(../assets/cardBg.png); */
+    background: linear-gradient(102deg, #4C1A88 43.92%, #C31F5D 132.03%);
+    margin-bottom: 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+/* .job_card {
+  height: 426px;
+} */
+
+@media (max-width: 480px) {
+  .success2 {
+    padding: 0px 0px;
+  }
+
+  .card_bg {
+    padding: 0px;
+  }
+
+  .success {
+    padding: 0px 0px;
+  }
+
+  .banner_bg {
+    padding: 5px 0px;
+    margin-bottom: 50px;
+  }
+
+  .second_bg {
+    padding: 10px 0px;
+  }
+
+  .success2 {
+    padding: 60px 0px;
+  }
+
+  .success_sub {
+    padding: 0px 22px 60px 22px;
+  }
+
+  .last_bg {
+    margin: 1rem 1.5rem;
+  }
+
+  .section {
+    margin: 72px 20px;
+  }
+
+  .email_button {
+    padding: 7px 22px;
+  }
+}
+
+@media (min-width: 0px) {
+  .css-zes0s {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .responsive_bg {
+    margin-top: -85px;
+    margin-bottom: 30px;
+  }
+
+  .section_card {
+    margin: 6px 0px;
+    padding: 10px;
+  }
+}
+
+
+
+/* Custom dots container */
+.custom-dots {
+  position: relative;
+  bottom: -32px;
+  text-align: center;
+  right: 20px;
+}
+
+.custom-dots li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.custom-dots li button {
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+.custom-dots li button:before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  display: block;
+  border-radius: 50%;
+  background-color: #e4e7ec;
+}
+
+.custom-dots li.slick-active button:before {
+  background-color: #fff;
+}
+
+.custom-dots li button span,
+.custom-dots li button::after {
+  display: none !important;
+}
+
+/* Custom dots container */
+.w-custom-dots {
+  position: relative;
+  bottom: 25px;
+  text-align: center;
+  right: 30px;
+}
+
+.w-custom-dots li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.w-custom-dots li button {
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: #FFF;
+}
+
+.w-custom-dots li button:before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  display: block;
+  border-radius: 50%;
+  background-color: #e4e7ec;
+}
+
+.w-custom-dots li.slick-active button:before {
+  background-color: #4c1b88;
+}
+
+.w-custom-dots li button span,
+.w-custom-dots li button::after {
+  display: none !important;
+}
+
+.css-1toh38m {
+  height: 60px;
+}

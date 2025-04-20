@@ -1,0 +1,296 @@
+.dashboard_title {
+    color: #4c1a88;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.14px;
+}
+
+.profile_title {
+    color: rgba(0, 0, 0, 0.87);
+
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.84px;
+}
+
+.personal_title {
+    color: rgba(0, 0, 0, 0.87);
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.54px;
+}
+
+.personal_subtitle {
+    color: rgba(0, 0, 0, 0.60);
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.42px;
+}
+
+.profile_div {
+    color: var(--Primary, #C31F5D);
+    font-feature-settings: 'liga' off, 'clig' off;
+
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.46px;
+}
+
+.profile_card {
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.60);
+    border: none;
+}
+
+.personal_info {
+    color: rgba(0, 0, 0, 0.87);
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.1px;
+}
+
+.personal_option {
+    color: rgba(0, 0, 0, 0.87);
+
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.24px;
+}
+
+.performance {
+    color: rgba(0, 0, 0, 0.60);
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.32px;
+}
+
+.performance_sub {
+    color: rgba(0, 0, 0, 0.87);
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.1px;
+}
+
+.dashboard_maincard {
+    /* background-color: rgba(255, 255, 255, 0.50); */
+    stroke-width: 1px;
+    /* stroke: #FFF; */
+    backdrop-filter: blur(77px);
+    padding: 20px 10px 20px 10px;
+    border-radius: 20px;
+}
+
+.whole_card {
+    background: rgba(255, 255, 255, 0.50);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: transparent;
+}
+
+.first_card {
+    margin: 0;
+    background: rgba(255, 255, 255, 0.50);
+    border-top-right-radius: 35px !important;
+    border-top-left-radius: 15px;
+}
+
+.second_card {
+    position: relative;
+    margin: 0;
+    background: transparent !important;
+    border-bottom-left-radius: 30px;
+}
+
+
+.third_card {
+    margin: 0;
+    border-top-left-radius: 34px;
+    background: rgba(255, 255, 255, 0.50);
+    border-top-right-radius: 15px;
+}
+
+.down_card {
+    /* background: rgba(255, 255, 255, 0.2); */
+    background: rgba(255, 255, 255, 0.50);
+    padding: 10px 24px 22px 6px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.dashboard_maincard {
+
+    /* background-image: url("../../assets/dashboard/bg.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; */
+}
+
+.dashboard_container {
+    background: linear-gradient(-45deg, #e792d3,
+            #cbb7e7,
+            #E3B2FF,
+            #F3D2FF,
+            #f4ebf5,
+            #FCE4EC);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* profilenew section */
+
+.all_info {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.1px;
+}
+
+.usename {
+    color: rgba(0, 0, 0, 0.87);
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+}
+
+.numbers {
+    color: #C31F5D;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.email {
+    color: rgba(0, 0, 0, 0.60);
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.top_buttons {
+    color: #C31F5D;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top_center_buttons {
+    color: #C31F5D;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.50);
+    padding: 12px 18px;
+}
+
+.common_info_title {
+    color: rgba(0, 0, 0, 0.87);
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.48px;
+}
+
+.common_info_subtitle {
+    color: #C31F5D;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* profile view page */
+.common_View_title {
+    color: rgba(0, 0, 0, 0.80);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.common_info_subtitleview {
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.common_info_title_main {
+    color: rgba(0, 0, 0, 0.80);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.48px;
+}
+
+.laungage {
+    display: flex;
+    padding: 6px 10px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 6px;
+    background: #F1EEF7;
+    width: fit-content;
+}

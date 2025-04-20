@@ -1,0 +1,38 @@
+import React from "react";
+import { SvgIcon } from "@mui/material";
+
+const GlassEffectSVG = (props) => {
+    return (
+        <SvgIcon
+            {...props}
+            viewBox="0 0 1320 582"
+            sx={{ width: "100%", height: "100%" }}
+        >
+            <g filter="url(#filter0_b)">
+                <path
+                    d="M0 16C0 7.16343 7.16344 0 16 0H276C289.255 0 300 10.7452 300 24V63.955C300 77.2098 310.745 87.955 324 87.955H630H996C1009.25 87.955 1020 77.2098 1020 63.955V24C1020 10.7451 1030.75 0 1044 0H1304C1312.84 0 1320 7.16344 1320 16V566C1320 574.837 1312.84 582 1304 582H16C7.16343 582 0 574.837 0 566V16Z"
+                    fill="white"
+                    fillOpacity="0.5"
+                />
+                <path
+                    d="M0.5 16C0.5 7.43958 7.43959 0.5 16 0.5H276C288.979 0.5 299.5 11.0213 299.5 24V63.955C299.5 77.486 310.469 88.455 324 88.455H630H996C1009.53 88.455 1020.5 77.486 1020.5 63.955V24C1020.5 11.0213 1031.02 0.5 1044 0.5H1304C1312.56 0.5 1319.5 7.43959 1319.5 16V566C1319.5 574.56 1312.56 581.5 1304 581.5H16C7.43957 581.5 0.5 574.56 0.5 566V16Z"
+                    stroke="url(#paint0_linear)"
+                />
+            </g>
+            <defs>
+                <filter id="filter0_b" x="-154" y="-154" width="1628" height="890" filterUnits="userSpaceOnUse">
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                    <feGaussianBlur in="BackgroundImageFix" stdDeviation="77" />
+                    <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur" result="shape" />
+                </filter>
+                <linearGradient id="paint0_linear" x1="0" y1="-15" x2="284.5" y2="282.5" gradientUnits="userSpaceOnUse">
+                    <stop stopColor="white" />
+                    <stop offset="1" stopColor="white" stopOpacity="0.35" />
+                </linearGradient>
+            </defs>
+        </SvgIcon>
+    );
+};
+
+export default GlassEffectSVG;
